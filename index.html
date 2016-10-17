@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <!-- Bootstrap and CSS here-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+      <div id='app' class='center'>
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id='title'>Guessing Game!</h1>
+          <h2 id='subtitles'>Guess a number between 1-100</h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input class='center' type="number" name="guess" maxlength="3" placeholder="#" autofocus=autofocus>
+            <button>Enter</button>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul id='guess-list'>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id='menu-btns'>
+            <!-- reset and hint buttons -->
+            <button id=reset>Reset</button>
+            <button id=hint>Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class="center">
+        <div>
+          <div class=''>
+            <img src='pics/FS.png'></img>
+          </div>
+
+          <div class=''>
+            <h4>Project by Hsiangyun Yang</h4>
+          </div>
+
+          <div class=''>
+            <img src='pics/GH.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+  </body>
+</html>
